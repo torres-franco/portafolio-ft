@@ -318,7 +318,7 @@ section .title::after{
 
 /* skills section styling */
 .skills .title::after{
-    content: "Lenguajes";
+    content: "Mis skills";
 }
 
 .skills .container-img{
