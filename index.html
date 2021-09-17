@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="images/favicon-ft.png">
@@ -223,21 +223,25 @@
                 </div>
                 <div class="column right">
                     <div class="text">Su mensaje:</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/francotorress57@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Nombre completo" required>
+                                <input type="text" name="name" placeholder="Nombre completo" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Asunto" required>
+                            <input type="text" name="asunto" placeholder="Asunto" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Su mensaje..." required></textarea>
+                            <textarea cols="30" rows="10" name="mensaje" placeholder="Su mensaje..." required></textarea>
                         </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_next" value="https://torres-franco.github.io/portafolio-ft/static/thankyou.html">
+
                         <div class="button-area">
                             <button type="submit">Enviar <i class="fab fa-telegram-plane"></i></button>
                         </div>
