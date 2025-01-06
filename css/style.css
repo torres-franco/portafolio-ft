@@ -357,7 +357,7 @@ section .title::after{
 
 /* projects section styling */
 .projects .title::after{
-    content: "Personales";
+    content: "Personales y Laborales";
 }
 
 .projects .carousel .card{
