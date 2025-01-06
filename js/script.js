@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Desarrollador de Software", "Desarrollador Oracle Apex", "Analista de Sistemas"],
+        strings: ["Desarrollador Oracle Apex", "Analista de Sistemas", "Un apasionado por la tecnología"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
