@@ -265,7 +265,7 @@ section .title::after{
     color: #E02929;
     background: none;
 }
-/* training section styling */
+/* training section styling 
 .training, .projects{
     color:#fff;
     background: #111;
@@ -290,6 +290,7 @@ section .title::after{
     padding: 50px 25px;
     transition: all 0.3s ease;
     height: 360px;
+ 
 }
 
 .training .serv-content .card .box{
@@ -315,6 +316,90 @@ section .title::after{
 .training .serv-content .card p{
 	margin: 5px;
 }
+*/
+
+/* Sección de formación */
+.training, .projects {
+    color: #fff;
+    background: #111;
+}
+
+.training .title::before,
+.projects .title::before {
+    background: #fff;
+}
+
+.training .title::after,
+.projects .title::after {
+    background: #111;
+    content: "Académica";
+}
+
+/* Contenedor de las tarjetas */
+.training .serv-content {
+    display: flex; /* Cambia a flexbox para alinear las tarjetas en una fila */
+    justify-content: space-between; /* Espaciado uniforme entre tarjetas */
+    gap: 15px; /* Espacio entre las tarjetas */
+    flex-wrap: nowrap; /* Asegura que las tarjetas no pasen a otra línea */
+}
+
+/* Estilo de las tarjetas */
+.training .serv-content .card {
+    flex: 1; /* Permite que las tarjetas se expandan proporcionalmente */
+    max-width: 30%; /* Controla el ancho máximo para 4 tarjetas en una fila */
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    transition: all 0.3s ease;
+    height: 360px;
+}
+
+/* Caja interna de las tarjetas */
+.training .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.training .serv-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+/* Ícono */
+.training .serv-content .card i {
+    font-size: 50px;
+    color: #E02929;
+    transition: color 0.3s ease;
+}
+
+/* Texto principal */
+.training .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+/* Texto adicional */
+.training .serv-content .card p {
+    margin: 5px;
+    text-align: left;
+}
+
+/* Responsive Training */
+@media (max-width: 768px) {
+    .training .serv-content {
+        flex-wrap: wrap; /* Permite que las tarjetas se reorganicen en filas en pantallas pequeñas */
+    }
+    .training .serv-content .card {
+        max-width: 48%; /* Dos tarjetas por fila */
+    }
+}
+
+@media (max-width: 480px) {
+    .training .serv-content .card {
+        max-width: 100%; /* Una tarjeta por fila en pantallas muy pequeñas */
+    }
+}
+
 
 /* skills section styling */
 .skills .title::after{
