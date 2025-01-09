@@ -265,58 +265,6 @@ section .title::after{
     color: #E02929;
     background: none;
 }
-/* training section styling 
-.training, .projects{
-    color:#fff;
-    background: #111;
-}
-
-.training .title::before,
-.projects .title::before{
-    background: #fff;
-}
-
-.training .title::after,
-.projects .title::after{
-    background: #111;
-    content: "Académica";
-}
-
-.training .serv-content .card{
-    width: calc(33% - 30px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    transition: all 0.3s ease;
-    height: 360px;
- 
-}
-
-.training .serv-content .card .box{
-    transition: all 0.3s ease;
-}
-
-.training .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-
-.training .serv-content .card i{
-    font-size: 50px;
-    color: #E02929;
-    transition: color 0.3s ease;
-}
-
-.training .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-
-.training .serv-content .card p{
-	margin: 5px;
-}
-*/
 
 /* Sección de formación */
 .training, .projects {
