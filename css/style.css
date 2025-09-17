@@ -294,7 +294,7 @@ section .title::after{
 /* Estilo de las tarjetas */
 .training .serv-content .card {
     flex: 1; /* Permite que las tarjetas se expandan proporcionalmente */
-    max-width: 30%; /* Controla el ancho máximo para 4 tarjetas en una fila */
+    max-width: 300%; /* Controla el ancho máximo para 4 tarjetas en una fila */
     background: #222;
     text-align: center;
     border-radius: 6px;
